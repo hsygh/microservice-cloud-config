@@ -2,6 +2,9 @@
 spring:
   profiles:
     active: dev # 激活开发环境配置
+    
+emp:
+  name: list
 ---
 server:
   port: 8001
@@ -24,8 +27,7 @@ spring:
       initial-size: 5
       max-total: 5
       max-wait-millis: 150
-emp:
-  name: list
+
 
 eureka:
   client:
